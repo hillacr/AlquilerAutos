@@ -187,7 +187,7 @@ export class MantenimientoVehiculo extends Component {
     render() {
         return (
             <main>
-                <div className="row-full"></div>
+                <div className="row-full">Vehículos</div>
 
                 <Container>
                 <Button style={{ backgroundColor: "#17A797", borderColor: "#17A797", }} onClick={() => this.onClickNuevaVehiculo()}>Agregar Vehiculo</Button>

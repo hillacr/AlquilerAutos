@@ -174,7 +174,7 @@ export class MantenimientoPersona extends Component {
     render() {
         return (
             <main>
-                <div className="row-full"></div>
+                <div className="row-full"> Clientes</div>
 
                 <Container>
                 <Button style={{ backgroundColor: "#17A797", borderColor: "#17A797", }} onClick={() => this.onClickNuevaPersona()}>Agregar Persona</Button>

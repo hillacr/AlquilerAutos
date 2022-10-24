@@ -172,7 +172,7 @@ export class MantenimientoTipoVehiculo extends Component {
     render() {
         return (
             <main>
-                <div className="row-full">Catálogo de TiposVehiculo </div>
+                <div className="row-full">Tipos de Vehículos </div>
                 <Container>
                     <Button style={{ backgroundColor: "#17A797", borderColor: "#17A797" }} onClick={() => this.onClickNuevoTipoVehiculo()}>Insertar TipoVehiculo</Button>
                     <hr />

@@ -41,7 +41,7 @@ export class AlquilerVehiculos extends Component {
         const options = response.data.map(function (row) {
           const random = Math.floor(Math.random() *listaImagenes.length);
 
-          return {currency: "", price: "₡25000", id: row.id, title: row.tipo_vehiculo.descripcion, description: row.placa, image:listaImagenes[random], placa: row.placa, tipo_vehiculo: row.tipo_vehiculo  }
+          return {id: row.id, title:"Vehículo: "+row.tipo_vehiculo.descripcion, description: "Placa: "+row.placa, image:listaImagenes[random], placa: row.placa, tipo_vehiculo: row.tipo_vehiculo  }
       });
 
     this.setState({ listaVehiculos: options });
